@@ -1,0 +1,165 @@
+*{
+	font-family: "Restaurant";
+}
+
+#principal{
+	margin: 16px;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+#imgPrin{
+	display: inline-block;
+	margin-left: 4%;
+	
+	margin-bottom: 10px;
+	margin-right: 1%;
+}
+#Menu{
+	display: inline-block;
+	color: red;
+}
+.a{
+	color: red;
+}
+
+.letraBorde{
+
+	background-color: gray;
+	opacity: 0.65;
+}
+.letraSobres{
+	color: #222121;
+	font-size: 30px;
+	background-color: white;
+	opacity: 0.55;
+}
+
+
+.vista{
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+	
+}
+#presentacion{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	background-image: url("https://revistaelconocedor.com/wp-content/uploads/2016/04/bistro-chapul.jpg");
+	background-color: transparent;
+}
+#titulo{
+	margin: 3%;
+	display: inline-block;
+	color: white;
+	background-color: #CB1717;
+	font-family: "Restaurant";
+	font-size: 60px;
+	opacity: .7;
+}
+#comidas{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.margen{
+	margin-left: 4%;
+	margin-right: 5%;
+}
+footer{
+	margin-left: 5%;
+	margin-right: 5%;
+    text-align: center;
+}
+.icono{
+	height: 90%;
+	width: 100%;
+
+}
+
+.agregar{
+
+	display: inline-block;
+}
+.cuadro{
+	margin: 5px;
+	width: 95%;
+}
+
+.promos{
+	width: 100%;
+	height: 5%;
+	margin: 10px;
+}
+#btVolver{
+	display: inline-block; 
+	margin-left: 3rem;
+}
+.ico{
+	width: 45px;
+	height: 50px;
+}
+.forIma{
+	width: 200px;
+	height: 600px;
+}
+
+.forIma1{
+	width: 200px;
+	height: 400px;
+}
+
+.forPromos{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+.forImaPrin{
+	width: 80%;
+	height: 450px;
+}
+.form{
+	display: inline-block;
+	align-content: center;
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+	width: 60%;
+	height: 50%;
+	padding: 1%;
+}
+.total{
+	display: inline-block;
+	width: 35%;
+	margin-left: 1%;
+	height: 50%;
+}
+.pagoTotal{
+	background-color: #B6B6B6;
+	margin-left: 20px;
+}
+
+.vistaPrevia{
+	width: 45%;
+	display: inline-block;
+}
+.fondoPrevio{
+	background-image: url("https://revistaelconocedor.com/wp-content/uploads/2016/04/bistro-chapul.jpg");
+	margin-left: 2%;
+}
+.tit{
+	margin: 3%;
+	display: inline-block;
+	color: white;
+	background-color: #CB1717;
+	font-family: "Restaurant";
+	font-size: 40px;
+	opacity: .7;
+	margin-top: 150px;
+}
+.comida{
+	width: 100%;
+	height: 180px;
+}

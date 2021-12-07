@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página</title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header id="cabeza">
+		<div id="principal">
+			<a href="index.html"><img src="https://static.wixstatic.com/media/94ee69_e538a8696a464afc9ebc8a27bd9d598f~mv2.jpg/v1/fill/w_233,h_110,al_c,q_80,usm_0.66_1.00_0.01/restaurant.webp" id="imgPrin"></a>
+			<h4 id="Menu">Tanaka Bistro Sun</h4>
+			<!-- <button type="button" class="btn btn-danger" style="float: right;display: inline-block;margin-top: 50px; margin-right: 4%;">Carrito</button> -->
+		</div>
+	</header>
+
+	<nav class="nav" style="margin-left: 4%;">
+  <a class="nav-link active" aria-current="page" href="index.html" style="color: red;">Inicio</a>
+  <a class="nav-link" href="menu.html" style="color: red;">Menú</a>
+  <a class="nav-link" href="carrito.html" style="color: red;">Carrito</a>
+  <a class="nav-link" href="verificacion.html" style="color: white"></a>
+  <a class="nav-link" href="repartidor.html" style="color: white"></a>
+	</nav>
+	<section id="presentacion">
+		<div id="titulo">
+			<p>BEBE. COME.</p>
+			<p>RELÁJATE. </p>
+			<p style="font-size: 15px; text-align: center; font-family: "Restaurant";">Siente el sabor</p>
+		</div>
+	</section>
+	<br>
+	<section class="margen">
+		<div class="vista">
+			<h1>Sugerencias</h1>
+			<h3 style="background-color: red; opacity: 0.85;"><i>Del día</i></h3>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			  	<div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  </div>
+			<div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <a href="#"><img src="imagenes/ramenRes.jpg" class="d-block w-100 forImaPrin" alt="..."></a>
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5 class="letraSobres" style="margin-bottom: 60%;">Suteki-men (730g) $149</h5>
+			        <p class="letraBorde">Ramen acompañado con fideos de tu elección, filete de res(25g), shiitake, huevo cocido, 
+			        cebollín, y jengíbre, servido con un toque de shichimi y aceití de ajonjolí picante en un 
+			    fondo de miso. </p>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <a href="#"><img src="imagenes/ramenKotsu.jpg" class="d-block w-100 forImaPrin" alt="..."></a>
+			      <div class="carousel-caption d-none d-md-block">
+			        <h5 class="letraSobres" style="margin-bottom: 60%;">Kotsu-men (755g) $170</h5>
+			        <p class="letraBorde">Ramen con fideos de tu elección, acompañado de un rollo de rib eye y pollo (50g),
+			        huevo cocido, cebollín, elote dulce, champiñón asado, servido con tocino crujiente y un toque de aceite de ajonjolí picante, en un fondo de miso.</p>
+			      </div>
+			    </div>
+
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+			</div>
+			<br>
+			<h3 style="background-color: red; opacity: 0.85;"><i>De la semana</i></h3>
+			<div>
+				<a href=""><img src="imagenes/chowMein.jpg" class="d-block w-100 forImaPrin"></a>
+				<div class="d-none d-md-block">
+			        <h5><b>Chow Mein (720g)</b> $155</h5>
+			        <p >Fideos largos a base de trigo, los vegetales y carnes de res, de pollo, de mariscos o de crustáceos.</p>
+			    </div>
+			</div>
+		</div>
+		<div class="vista" style="float: right;">
+			<div>
+				<h1>Promociones</h1>
+			<div>
+				<a href=""><img src="promos/tanakas.png" class="forPromos"></a>
+				<a href=""><img src="promos/ramen.png" class="forPromos"></a>
+				<a href=""><img src="promos/amigos.png" class="forPromos"></a>
+			</div>
+		</div>
+	</section>
+	<footer style="margin-left: 5%; margin-right: 5%; text-align: center;">
+		<iframe src="footer.html"></iframe>
+	</footer>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
